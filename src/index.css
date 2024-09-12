@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+
+@import url(https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic,500italic,600italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+3:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.roboto {
+  font-family: Roboto;
+}
+.robotoSlab {
+  font-family: Roboto Slab;
+}
+
+.raleway {
+  font-family: Raleway;
+}
+
+.rubik {
+  font-family: Rubik;
+}
+
+.lora {
+  font-family: Lora;
+}
+
+.dmSans {
+  font-family: DM Sans;
+}
+
+.libreFranklin {
+  font-family: Libre Franklin;
+}
+
+.sourceSans3 {
+  font-family: Source Sans 3;
+}
+
+.inter {
+  font-family: Inter;
+}
+
+.poppins {
+  font-family: Poppins;
+}
+
+#footer .logo h1 {
+  color: white;
+}
+
+.grid-cols-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 2fr; /* Two columns with equal width, followed by a column with double width */
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.floaters {
+  position: fixed;
+  margin-top: 20px;
+  margin-right: 0px;
+  z-index: 1000;
+}
