@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 const Card = ({text,title,icon}) => {
   return (
     <div className='flex flex-col space-y-10'>
-        <h1 className='text-titles text-5xl w-3/5 font-black max-sm:w-full max-sm:text-center max-sm:text-4xl max-md:w-full max-md:text-center'>{title}</h1>
+        <h1 className='text-titles text-5xl w-3/5 max-lg:w-full font-black max-sm:w-full max-sm:text-center max-sm:text-4xl max-md:w-full max-md:text-center'>{title}</h1>
         <p>{text}</p>
         <div>{icon}</div>
     </div>

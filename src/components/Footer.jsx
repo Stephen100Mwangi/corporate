@@ -14,7 +14,7 @@ import { RiAddFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <div id='footer' className='flex flex-col space-y-16 m-16 mx-8'>
-        <div className="flex rounded-3xl bg-back bg-opacity-10 justify-between items-center p-16 px-8 my-16 max-sm:flex-col max-sm:gap-y-12 max-md:flex-col max-md:gap-y-10">
+        <div className="flex rounded-3xl bg-back bg-opacity-10 justify-between items-center p-16 px-8 my-16 max-sm:flex-col max-sm:gap-y-12 max-md:flex-col max-md:gap-y-10 max-lg:grid max-lg:grid-cols-2 max-lg:gap-10 max-lg:justify-center max-lg:items-center">
             <div className="flex flex-col items-center justify-center space-y-0 hover:text-logo text-back">
                 <div className='font-black text-4xl tracking-tighter'>SWEETY</div>
                 <div className='font-semibold tracking-[10px] text-xs'>CAFETERIA</div>

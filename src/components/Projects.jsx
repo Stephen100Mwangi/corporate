@@ -16,7 +16,7 @@ const Projects = () => {
             <p className='text-back'>Isolation</p>
             <p className='text-back'>Plumbing</p>
         </div>
-        <div className="projects flex flex-wrap gap-1 w-full">
+        <div className="projects flex flex-wrap gap-1 w-full max-lg:grid max-lg:grid-cols-2 max-lg:justify-center max-lg:items-center">
             <ProjectCard image="./suit.jpg" icon={<PiCaretRightBold />} title="Tailored Tech" project="Custom Software Solutions"></ProjectCard>
             <ProjectCard image="./kitchen.jpg" icon={<PiCaretRightBold className='text-white'/>} title="Recipe for Success" project="Innovative Web Applications"></ProjectCard>
             <ProjectCard image="./phone.jpg" icon={<PiCaretRightBold className='text-white'/>} title="Mobile Mastery" project="Mobile App Development"></ProjectCard>
