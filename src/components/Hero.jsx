@@ -9,7 +9,7 @@ import { TbLogout } from "react-icons/tb";
 
 const Hero = () => {
   return (
-    <div className='w-full relative flex my-8 p-8 pr-0 mb-[500px] max-sm:mb-36 max-sm:flex-col'>
+    <div className='w-full relative flex my-8 overflow-clip  p-8 pr-0 mb-[150px] max-sm:mb-36 max-sm:flex-col'>
         <div className="leftHero flex flex-col space-y-6 relative w-1/3 max-sm:w-full max-sm:gap-y-5">
             <div className="flex flex-col space-y-2 max-sm:gap-10">
                 <h1 className='text-titles font-extrabold'>WE ARE HERE FOR</h1>
@@ -23,7 +23,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="rightHero w-2/3 relative overflow-x-clip max-sm:w-full max-sm:hidden">
-            <img src="./hero.png" alt=""  className='absolute -right-20 -top[2400px] w-[90%] scale-90' />
+            <img loading='lazy' src="./hero.png" alt=""  className='absolute -right-20 -top-28 w-[90%]' />
         </div>
 
         <div className="floaters flex flex-col space-y-3 absolute right-0 top-[10%]">

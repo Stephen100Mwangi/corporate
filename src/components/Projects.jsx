@@ -16,14 +16,12 @@ const Projects = () => {
             <p className='text-back'>Isolation</p>
             <p className='text-back'>Plumbing</p>
         </div>
-        <div className="projects flex flex-wrap gap-1">
-          <div className="projects flex flex-wrap gap-1">
+        <div className="projects flex flex-wrap gap-1 w-full">
             <ProjectCard image="./suit.jpg" icon={<PiCaretRightBold />} title="Tailored Tech" project="Custom Software Solutions"></ProjectCard>
             <ProjectCard image="./kitchen.jpg" icon={<PiCaretRightBold className='text-white'/>} title="Recipe for Success" project="Innovative Web Applications"></ProjectCard>
             <ProjectCard image="./phone.jpg" icon={<PiCaretRightBold className='text-white'/>} title="Mobile Mastery" project="Mobile App Development"></ProjectCard>
             <ProjectCard image="./coffee.jpg" icon={<PiCaretRightBold className='text-white'/>} title="Brewing Innovation" project="Cutting-Edge Technology"></ProjectCard>
             <ProjectCard image="./weather.jpg" icon={<PiCaretRightBold className='text-red-500'/>} title="Forecasting Future" project="Predictive Analytics"></ProjectCard>
-          </div>
         </div>
       
     </div>

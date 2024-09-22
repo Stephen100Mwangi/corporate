@@ -14,7 +14,7 @@ import { RiAddFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <div id='footer' className='flex flex-col space-y-16 m-16 mx-8'>
-        <div className="flex rounded-3xl bg-back bg-opacity-10 justify-between items-center p-16 px-8 my-16 max-sm:flex-col max-sm:gap-y-12">
+        <div className="flex rounded-3xl bg-back bg-opacity-10 justify-between items-center p-16 px-8 my-16 max-sm:flex-col max-sm:gap-y-12 max-md:flex-col max-md:gap-y-10">
             <div className="flex flex-col items-center justify-center space-y-0 hover:text-logo text-back">
                 <div className='font-black text-4xl tracking-tighter'>SWEETY</div>
                 <div className='font-semibold tracking-[10px] text-xs'>CAFETERIA</div>
@@ -47,7 +47,7 @@ const Footer = () => {
             
         </form>
 
-        <div className="flex flex-row gap-20 p-16 my-16 bg-titles rounded-3xl py-20 bg-opacity-90 relative max-sm:flex-col max-sm:gap-y-24">
+        <div className="flex flex-row gap-20 p-16 my-16 bg-titles rounded-3xl py-20 bg-opacity-90 relative max-sm:flex-col max-sm:gap-y-24 max-md:flex-col max-md:gap-y-20">
             <div className="absolute size-8 -top-4 bg-logo rounded-full"></div>
             <div className="absolute size-24 -bottom-10 left-[35%] bg-logo rounded-full"></div>
             <RiAddFill className='absolute text-logo text-4xl rotate-0 font-bold right-[20%] -top-5'></RiAddFill>
@@ -62,7 +62,7 @@ const Footer = () => {
                         <IoWifi></IoWifi>
                     </div>
                 </div>
-                <div className='flex flex-col space-y-5 text-white font-normal max-sm:justify-center max-sm:items-center max-sm:gap-y-10'>
+                <div className='flex flex-col space-y-5 text-white font-normal max-sm:justify-center max-sm:items-center max-sm:gap-y-10 max-md:justify-center max-md:gap-y-12'>
                     <div className="flex items-center space-x-4">
                         <div className="bg-logo size-2 rounded-full hidden"></div>
                         <h1 className='hover:text-logo cursor-pointer'>Automotive Parts & System</h1>
